@@ -1,0 +1,12 @@
+﻿body {
+    background: #bb7de8;
+    background: -moz-linear-gradient(45deg, #bb7de8 19%, #bb7de8 19%, #2989d8 99%, #2989d8 99%, #207cca 100%, #75CBE7 100%);
+    background: -webkit-linear-gradient(45deg, #bb7de8 19%,#bb7de8 19%,#2989d8 99%,#2989d8 99%,#207cca 100%,#75CBE7 100%);
+    background: linear-gradient(45deg, #bb7de8 19%,#bb7de8 19%,#2989d8 99%,#2989d8 99%,#207cca 100%,#75CBE7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb7de8', endColorstr='#75CBE7',GradientType=1 );
+}
+
+.navbar-nav{
+    margin: 0 auto;
+    text-align: center;
+}
