@@ -57,7 +57,7 @@
             <div class="col-md-4 col-lg-7 d-flex align-items-center">
               <div class="card-body p-4 p-lg-5 text-black">
 
-                <form>
+                <form id="loginForm" runat="server">
 
                   <div class="d-flex align-items-center mb-3 pb-1">
                     <i class="fas fa-cubes fa-2x me-3" style="color: #ff6219;"></i>
@@ -67,22 +67,25 @@
                   <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Employee Portal</h5>
 
                   <div class="form-outline mb-4">
-                    <input type="text" id="username" class="form-control form-control-lg" />
-                    <label class="form-label" for="username">Username</label>
+                    <asp:Label ID="username" runat="server" Text="Username"></asp:Label>
+                      <br />
+                    <asp:TextBox ID ="usernameText" runat="server"></asp:Textbox>
                   </div>
 
                   <div class="form-outline mb-4">
-                    <input type="password" id="password" class="form-control form-control-lg" />
-                    <label class="form-label" for="password">Password</label>
+                    <asp:Label ID="password" runat="server" Text="Password"></asp:Label>
+                      <br />
+                    <asp:TextBox ID ="passwordText" runat="server" TextMode="Password"></asp:Textbox>
+
                   </div>
 
                   <div class="pt-1 mb-4">
                     <button class="btn btn-dark btn-lg btn-block" type="submit" runat="server" id="btnLogin" onserverclick="btnLogin_Click1">Login</button>
                   </div>
 
-                  <asp:Label ID ="lblErrorMessage" runat="server" Text="Incorrect Username or Password." ForeColor="Red" />
+                  <asp:Label ID ="lblErrorMessage" runat="server" Text="Incorrect Username or Password." ForeColor="Red" Visible="false" />
 
-                  <a class="small text-muted" href="#!">Forgot password?</a>
+                  <a class="small text-muted" href="newUser.aspx">New User?</a>
                 </form>
 
               </div>

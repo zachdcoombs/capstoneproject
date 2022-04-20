@@ -4,6 +4,9 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace CapstoneProject
 {
@@ -16,7 +19,25 @@ namespace CapstoneProject
 
         protected void btnLogin_Click1(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["dbconnection"].ConnectionString);
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from loginTable where Username =@Username and Password =@Password", con);
+            cmd.Parameters.AddWithValue("@Username", usernameText.Text);
+            cmd.Parameters.AddWithValue("@Password", passwordText.Text);
 
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+
+            if (dt.Rows.Count > 0)
+            {
+                Response.Redirect("resources.aspx");
+            }
+
+            else
+            {
+                lblErrorMessage.Visible = true;
+            }
         }
     }
 }
