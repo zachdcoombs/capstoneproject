@@ -85,7 +85,7 @@
 
                   <asp:Label ID ="lblErrorMessage" runat="server" Text="Incorrect Username or Password." ForeColor="Red" Visible="false" />
 
-                  <a class="small text-muted" href="newUser.aspx">New User?</a>
+                  <a class="small text-muted" href="createUser.aspx">New User?</a>
                 </form>
 
               </div>

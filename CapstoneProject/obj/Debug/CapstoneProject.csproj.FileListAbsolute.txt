@@ -105,8 +105,8 @@ C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\bin\roslyn\VBC
 C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\obj\Debug\CapstoneProject.csprojAssemblyReference.cache
 C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\obj\Debug\CapstoneProject.csproj.CoreCompileInputs.cache
 C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\obj\Debug\CapstoneProject.csproj.CopyComplete
 C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\obj\Debug\CapstoneProject.dll
 C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\obj\Debug\CapstoneProject.pdb
+C:\Users\Zach\Documents\Portfolio\capstoneproject\CapstoneProject\obj\Debug\CapstoneProject.csprojAssemblyReference.cache
