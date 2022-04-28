@@ -31,7 +31,7 @@ namespace CapstoneProject
 
             if (dt.Rows.Count > 0)
             {
-                Response.Redirect("resources.aspx");
+                Response.Redirect("Index.cshtml");
             }
 
             else
